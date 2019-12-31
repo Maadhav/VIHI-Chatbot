@@ -1,0 +1,270 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- upload
+- login
+- yes or no
+- register
+- Yes
+- no
+- code
+- verification
+- OTP
+- reg_no
+- mechanism
+- edit
+- status_check
+- public_grievance
+- pension_grievance
+- remind
+- forgot_psswd
+- change_psswd
+- out_of_scope
+- edit_hi
+- remind_hi
+- register_hi
+- reg_no_hi
+- verification_hi
+- upload_hi
+- public_grievance_hi
+- code_hi
+- forgot_psswd_hi
+- bot_challenge_hi
+- login_hi
+- otp_hi
+- pension_grievance_hi
+- change_psswd_hi
+- status_check_hi
+- register2
+- signup
+- Yes_hi
+templates:
+  utter_greet:
+  - text: "Hi there, I am VIHI, virtual assistant for queries on Public Grievance\
+      \ Redressal Portal\nSo, how can i help you today?"
+  utter_upload:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home\n2. Firstly,\
+      \ Check the document size. \n3. If your size is larger than require size then\
+      \ reduce the size of your document.\n4. To see the file size. Goto the properties\
+      \ then see the size. "
+  utter_register:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Signin. \n\
+      2. If not Registered then visit https://pgportal.gov.in/Registration. \n3. After\
+      \ signing in visit https://pgportal.gov.in/NewGrievance.\n4. Accept the T &\
+      \ C.\n5. Select the proper Ministry/Department.\n6. Fill the  Grievance registration\
+      \ form. \n7. Click on Submit"
+  utter_code:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home. \n2.\
+      \ Check you have not enter the wrong code.\n3. Reload the security code image."
+  utter_link:
+  - text: "Steps to be followed :-\n\n1. Visit  https://pgportal.gov.in/EditProfile.\
+      \ \n2. Check you Email. \n3. If your Email address is proper then click on resend\
+      \ the verfication link."
+  utter_otp:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home. \n2.\
+      \ Firstly, Check that you have click on  Get OTP. \n3. Check your phone no.\
+      \ is proper. \n4. If your phone no. is correct,  then resend the OTP."
+  utter_regno:
+  - text: "Steps to be followed :-\n\n1. If you have forgotten registration no. then\
+      \ you have two options to get number. \n2. Firstly you can check the SMS in\
+      \ registratered mobile. \n3. Secondly you can check the Email Id from where\
+      \ you can get registration number."
+  utter_mechanism:
+  - text: "Grievance Redress Mechanism is part and parcel of the machinery of any\n\
+      administration. No administration can claim to be accountable, responsive and\
+      \  user-friendly unless it has established an efficient and effective grievance\n\
+      redress mechanism. In fact, the grievance redress mechanism of an organization\
+      \ is the gauge to measure its efficiency and effectiveness as it provides\n\
+      important feedback on the working of the dministration."
+    image: https://i.imgur.com/LJ201Xe.jpg
+  utter_edit:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/EditProfile.\
+      \ \n2. In the sidebar Click on Edit Profile.\n3. Then you can update your Name,\
+      \ Address, etc."
+    image: https://i.imgur.com/Qlp1CcL.jpg
+  utter_status_check:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Status  \n\
+      2. Fill the required fields. \n3. Enter the Security code. \n4. Click on Submit."
+    image: https://i.imgur.com/6CrviKL.jpg
+  utter_public_grievance:
+  - text: Public Grievances Redressal is one of the flagship initiatives for the reformation
+      in governance started by Central government through addressing the grievances
+      of general public. It was created in June 2007 by DARPG.
+  utter_pension_grievance:
+  - text: Info about Pension Grievance...
+  utter_remind:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Reminder \n\
+      2. Fill the required fields. \n3. Enter the Security code. \n4. Click on Submit."
+    image: https://i.imgur.com/Nf8zh0Z.jpg
+  utter_forgot_psswd:
+  - text: "Steps to follow :- \n\n1. Visit https://pgportal.gov.in/ForgotGrievancePassword\n\
+      \ 2. Fill the required fields. \n 3. Click on Submit."
+    image: https://i.imgur.com/1OyLfoi.jpg
+  utter_change_psswd:
+  - text: "Steps to be followed :-\n \n 1. Visit https://pgportal.gov.in/ChangeGrievancePassword\
+      \ \n 2. Fill the required\n fields. \n 3. Enter the Security code. \n 4. Click\
+      \ on Submit."
+    image: https://i.imgur.com/Rt2NX7H.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+    buttons:
+    - title: Yes
+      payload: /Yes
+    - title: No
+      payload: /no
+  utter_no:
+  - text: What issue are you having?
+  utter_yes:
+  - text: Thank you for Contacting. Have a Great Day !
+  action_default_fallback:
+  - text: Can you rephrase that...
+  utter_default:
+  - text: Can you repeat once more?
+  utter_yes_hi:
+  - text: सम्पर्क करने के लिये आपको धन्यवाद। आपका दिन शानदार गुजरे .
+  utter_upload_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: - \n\n1. https://pgportal.gov.in/Home पर\
+      \ जाएं \n2. सबसे पहले, दस्तावेज़ का आकार जांचें।\n3. यदि आपका आकार आवश्यकता\
+      \ आकार से बड़ा है तो अपने आकार को कम करें दस्तावेज़।\n4. फ़ाइल का आकार देखने\
+      \ के लिए। गुण तो आकार देखें।"
+  utter_status_check_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: - \n\n1. https://pgportal.gov.in/Status\
+      \ पर जाएं\n2.आवश्यक फ़ील्ड भरें। \n3. सुरक्षा कोड दर्ज करें। \n4. सबमिट पर क्लिक\
+      \ करें।"
+    image: https://i.imgur.com/89kgNH9.jpg
+  utter_remind_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: - 1. https://pgportal.gov.in/Reminder पर\
+      \ जाएं \n2. आवश्यक फ़ील्ड भरें। \n3. सुरक्षा कोड दर्ज करें।\n4. सबमिट पर क्लिक\
+      \ करें।"
+    image: https://i.imgur.com/5nqs444.jpg
+  utter_regno_hi:
+  - text: "निम्नलिखित चरणों का पालन करें:  \n\n1. यदि आप भूल गए हैं पंजीकरण नं। तो\
+      \ आपके पास\nदो विकल्प हैं नंबर। \n2. सबसे पहले आप रजिस्टर्ड मोबाइल में एसएमएस\
+      \ चेक कर सकते\nहैं। \n3. दूसरे आप ईमेल आईडी की जांच कर सकते हैं जहां से आप पंजीकरण\
+      \ नंबर प्राप्त कर  सकते हैं  ।"
+  utter_register_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/Signin\
+      \ \n 2. यदि पंजीकृत नहीं है तो https://pgportal.gov.in/Registration पर जाएं।\n\
+      \ 3. साइन इन करने के बाद https://pgportal.gov.in/NewGrievance पर जाएं।\n 4.\
+      \ उचित मंत्रालय / विभाग का चयन करें। \n 5. शिकायत पंजीकरण फॉर्म भरें। \n 6.\
+      \ सबमिट पर क्लिक करें"
+  utter_public_grievance_hi:
+  - text: लोक शिकायत निवारण एक प्रमुख पहल है  शासन में सुधार केंद्र सरकार द्वारा संबोधित
+      करने के माध्यम से शुरू हुआ आम जनता की शिकायतें। इसे DARPG द्वारा जून 2007 में
+      बनाया गया था।
+  utter_pension_grievance_hi:
+  - text: पेंशन शिकायत के बारे में जानकारी ...
+  utter_otp_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/Home पर\
+      \ जाएं।\n 2. सबसे पहले, जांच लें कि आपने गेट ओटीपी पर क्लिक किया है।\n 3. क्या\
+      \ आपका फोन नं उचित है?\n 4. अगर आपका फोन नं सही है, तो OTP को फिर से भेजें।"
+  utter_no_hi:
+  - text: आप क्या समस्या है?
+  utter_mechanism_hi:
+  - text: शिकायत निवारण तंत्र किसी भी मशीनरी का हिस्सा और पार्सल है शासन प्रबंध। कोई
+      भी प्रशासन जवाबदेह, उत्तरदायी और होने का दावा नहीं कर सकता  उपयोगकर्ता के अनुकूल
+      जब तक कि उसने एक कुशल और प्रभावी शिकायत स्थापित नहीं की है  निवारण तंत्र। वास्तव
+      में, एक संगठन की शिकायत निवारण तंत्र  इसकी दक्षता और प्रभावशीलता को मापने के
+      लिए गेज है जैसा कि यह प्रदान करता है  डेडिकेशन के काम पर महत्वपूर्ण प्रतिक्रिया।
+    image: https://i.imgur.com/c0Fsw9n.jpg
+  utter_signup_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/Home पर\
+      \ जाएं। \n 2. *के साथ चिह्नित Fields अनिवार्य है\n 3. अपना मोबाइल नंबर डालें।\n\
+      \ 4. ईमेल आईडी दर्ज करें (Example@gmail.com)"
+  utter_link_hi:
+  - text: 'निम्नलिखित चरणों का पालन करें: -     1. https://pgportal.gov.in/EditProfile
+      पर जाएं।    2. आप ईमेल की जाँच करें।    3. यदि आपका ईमेल पता उचित है, तो सत्यापन
+      लिंक को पुनः भेजें पर क्लिक करें।'
+  utter_greet_hi:
+  - text: "नमस्ते, मैं लोक शिकायत पर प्रश्नों के लिए आभासी सहायक, VIHI हूं| \nतो,\
+      \ आज मैं आपकी मदद कैसे कर सकती हूं?"
+  utter_forgot_psswd_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/ForgotGrievancePassword\
+      \ पर जाएं\n 2. आवश्यक फ़ील्ड भरें।\n 3. सबमिट पर क्लिक करें।"
+    image: https://i.imgur.com/3AIxW99.jpg
+  utter_edit_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/EditProfile\
+      \ पर जाएं।\n 2. साइडबार में एडिट प्रोफाइल पर क्लिक करें।\n 3. फिर आप अपना नाम,\
+      \ पता आदि अपडेट कर सकते हैं।"
+    image: https://i.imgur.com/tiGeim3.png
+  utter_did_that_help_hi:
+  - text: आपको इससे मदद मिली क्या?
+    buttons:
+    - title: हाँ
+      payload: /Yes_hi
+    - title: नहीं
+      payload: /no
+  utter_default_hi:
+  - text: क्या आप एक बार फिर दोहरा सकते हैं?
+  utter_code_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/Home पर\
+      \ जाएं।\n 2. जांचें कि आपने गलत कोड दर्ज नहीं किया है।\n 3. सुरक्षा कोड छवि\
+      \ को पुनः लोड करें|"
+  utter_change_psswd_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/ChangeGrievancePassword\
+      \ पर जाएं \n 2. आवश्यक भरें\n 3. सुरक्षा कोड दर्ज करें। \n 4. सबमिट पर क्लिक\
+      \ करें।"
+    image: https://i.imgur.com/KVehXUx.jpg
+  action_default_fallback_hi:
+  - text: क्या आप इसे दूसरे शब्दों में कह सकते हैं..
+  utter_login:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home. \n2.\
+      \ Enter The Mobile No. or Username or Email Id. \n3. Enter The Correct Password."
+  utter_login_hi:
+  - text: "निम्नलिखित चरणों का पालन करें: -\n \n 1. https://pgportal.gov.in/Home पर\
+      \ जाएं।\n 2. \n 3. क्या आपका फोन नं उचित है?\n 4. अगर आपका फोन नं सही है, तो\
+      \ OTP को फिर से भेजें।"
+  utter_signup:
+  - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home. \n2.Fields\
+      \  marked with * is mandantory to\nfilled. \n3. Enter your own mobile no. \n\
+      4. Enter the email id without anytype of space\n(example@gmail.com)."
+actions:
+- utter_greet
+- utter_upload
+- utter_login
+- utter_register
+- utter_code
+- utter_link
+- utter_otp
+- utter_regno
+- utter_mechanism
+- utter_mechanism1
+- utter_edit
+- utter_status_check
+- utter_public_grievance
+- utter_pension_grievance
+- utter_remind
+- utter_forgot_psswd
+- utter_change_psswd
+- utter_did_that_help
+- utter_no
+- utter_yes
+- utter_default
+- utter_yes_hi
+- utter_upload_hi
+- utter_status_check_hi
+- utter_remind_hi
+- utter_regno_hi
+- utter_register_hi
+- utter_public_grievance_hi
+- utter_pension_grievance_hi
+- utter_otp_hi
+- utter_no_hi
+- utter_mechanism_hi
+- utter_login_hi
+- utter_link_hi
+- utter_greet_hi
+- utter_forgot_psswd_hi
+- utter_edit_hi
+- utter_did_that_help_hi
+- utter_default_hi
+- utter_code_hi
+- utter_change_psswd_hi
+- action_default_fallback_hi
+- utter_signup_hi
+- utter_signup

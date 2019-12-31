@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <title>chatbot</title>
+      
+
+  
+</head>
+
+<body>
+
+  <div id="webchat"/>
+  <script src="https://rasa.com/docs/rasa/_static/rasa-webchat.js"></script>
+  
+  <script>
+  WebChat.default.init({
+        selector: "#webchat",
+        initPayload: "/greet",	
+        socketUrl: "http://localhost:5005/",
+        socketPath: "/socket.io/",
+        title: "Vihi",
+        subtitle: "I'm here to solve your queries...",
+        profileAvatar: "https://i.imgur.com/daF3RoB.png",
+        showCloseButton: true,
+        fullScreenMode: false,
+        hideWhenNotConnected: false,
+        connectOn: "open",
+        autoClearCache: true,
+        customMessageDelay: (message) => {
+        return 900 + message.length;
+        },
+      params: {
+        storage: "local"
+      }})
+  </script>
+    
+</body>
+
+</html>

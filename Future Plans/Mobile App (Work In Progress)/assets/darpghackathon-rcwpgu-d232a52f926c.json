@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "darpghackathon-rcwpgu",
+  "private_key_id": "d232a52f926c0cbc949a43216ffd898196e9559f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjaCa7SsUOGSSf\nisc9HWfsH2A5wULAsIATBdYbOksIy3hstNTeqR4gGlpJU+f93yNoFaM+o9UKTpJd\nQeIIvpKBZeLvZgwiYNnf2my9YW0DCgAnnS+DsHRtgUPpOO9APqBqZKuDNrJmoCUy\nSdRO9b5yMob6hrmvrbeerQhrPRVm09LEFRHfz/yyoyWw3durWThC7d4Z9rLmOavZ\ny12jRZ2vUyLD7Oprl33jdrShh0JizrWTbgKiHXNVWtlvblkXPTndtyl/mEVhJi36\n5mkVJNeLBLGn1AVLTiRdVbK4cOEou2v1Dj03mrbd2KOxWyuBDwBH06GdsQYYjzZS\ndkIfAW0lAgMBAAECggEAA00bWzVLfdlsL/zxwX5SlyabHw+UdagbLkcz6CDpWygh\nKrEMi+MGxMdDg6+6RBq58GRfg+hzaV3k/xVRp7OR6iNQzl1VaWxjem5DPCA3v5P4\nJNS8HQD3mS6/XHrV+opJW1zlSiVUvVYG6lkrfNziGBSFPZJzNeVgjEgan3AAeq9M\njtvjh6HBMMt1tmm/zIpoR5hQzxKmkU+Zx8FoxVKLK1ZhfGTNY7+2o5/nu7MSWXrg\ny3joa2e1b66jRg121A841S51UiSUwWDEfXLlt/3Y3WvD2dRMseyufdSOIZyRS2PI\n3/mMd0DNGy2CzsmNgWyCWvSoNbqjpkGf2SKXpHdLgQKBgQDZ/ZeQPAJEvt4/QC8X\nCUYqiuP9gA7N3b0AUfOOQxmyqw3h/pJ4FBPazpHWsjAsdJr0z1eFtVBNHfe0/VWF\nb0toi70xVLPxo5k6O4qrpzEToo04ZX2dkMTiC2SmNyz/2RWdUVR8zgRi2jy2zaSg\nxaNtk8KtdHg5EA8lXRT9TeJdTQKBgQC/5h0kJkMeUsX2UdmmzPWBWAUopZyOaxCR\nW+pFLgg+9ICljTmeUeMUIMbT9PwzNqprPGlDocFiqRCWxwekLuVFQRkyDq5msm2n\nhj6C3WhimXToUozUWZffnF+nisw2ZRg4pM3GcdmLtDb/ZM2wDcky501w/iIa+Y8g\nqqkLxC3DOQKBgAPohwof+U5wOZ3asb1w/iAPI21NGXbZbeUOkxZO36wTYwlVPh0H\nByAaKgU2ZqS1Zn3TJdeQ26K2UdWd4SWmTCzQrJCw2xUPANVJcgAH3FpkxLFpKGpl\nyRHgcGqGfLkNlFSgu6oNK4j2LrZ8U2JKiNaTGp9vgiRLxGnAFHtCJTfVAoGBAKe5\neCT9cFKTpEUruyGoKLiZd0DUp2ZvO7bg8Hzww/JKgBqyufafuesAzue5S6lzkTZT\nQeoD+mPCQyaV5R7igi+qu1veKx7Fu0Pd+Msmu7LaT60zYbXEbRLbuVtV3DF64NW5\nbcWSAsOxixRkRccn9YARXMVyydpr32Z8423OVPU5AoGATZgLT9Trik3JSKSiJlUH\n+B2pVDbhUZMR1tM3Dc3FWwH8hmgKGzD/Rwv/xmNYYtMKSuXIFXy7hqfQxB8hLA/v\nSTJ/YU/Q5YOFMnScv212y+NAevYI0KzhhOGhu/keL7rWwRnzW8D5XwJ143sU3mno\n2jt03ONNnYhx5BvLsux69tw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-nfrqws@darpghackathon-rcwpgu.iam.gserviceaccount.com",
+  "client_id": "109332121619404687795",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-nfrqws%40darpghackathon-rcwpgu.iam.gserviceaccount.com"
+}
