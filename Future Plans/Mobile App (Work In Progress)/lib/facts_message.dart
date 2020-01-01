@@ -11,10 +11,12 @@ class Facts extends StatelessWidget {
     return <Widget>[
       Container(
         margin: const EdgeInsets.only(right: 10.0),
-        child: CircleAvatar(child: Padding(
-          padding: const EdgeInsets.all(5),
-          child: FlutterLogo(),
-        ), backgroundColor: Colors.grey[200], radius: 12,),
+        child: CircleAvatar(
+                radius: 20.0,
+                backgroundImage:
+                    AssetImage("assets/avatar.png"),
+                backgroundColor: Colors.transparent,
+              )
       ),
       Expanded(
         child: Column(

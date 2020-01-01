@@ -1,2 +1,2 @@
-# VIHI ChatBot
-- A Flutter App for VIHI (Still In Development)
+# flutter_chatBot
+Chatbot to tell facts about Flutter.

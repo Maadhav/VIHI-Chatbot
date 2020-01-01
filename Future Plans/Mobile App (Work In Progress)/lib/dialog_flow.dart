@@ -46,14 +46,14 @@ class _FlutterFactsChatBotState extends State<FlutterFactsChatBot> {
   void agentResponse(query) async {
     _textController.clear();
     AuthGoogle authGoogle =
-    await AuthGoogle(fileJson: "assets/darpghackathon-rcwpgu-d232a52f926c.json").build();
+    await AuthGoogle(fileJson: "assets/vihi-kdoebh-55776b5920e6.json").build();
     Dialogflow dialogFlow =
     Dialogflow(authGoogle: authGoogle, language: Language.english);
     AIResponse response = await dialogFlow.detectIntent(query);
     Facts message = Facts(
       text: response.getMessage() ??
           CardDialogflow(response.getListMessage()[0]).title,
-      name: "DARPG Bot",
+      name: "VIHI",
       type: false,
     );
     setState(() {
@@ -81,7 +81,7 @@ class _FlutterFactsChatBotState extends State<FlutterFactsChatBot> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("DARPG Hackathon", style: TextStyle(color: Colors.green[400]),),
+        title: Text("VIHI", style: TextStyle(color: Colors.green[400]),),
         backgroundColor: Colors.white,
         elevation: 0,
       ),
