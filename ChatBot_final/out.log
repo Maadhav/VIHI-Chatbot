@@ -1,0 +1,31 @@
+2020-01-01 14:58:32,063 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-01-01 14:58:36,172 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-01-01 14:58:52,330 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\windows\system32\venv\lib\site-packages\sanic\app.py", line 946, in handle_request
+    request, request_name=name
+TypeError: _run_request_middleware() got an unexpected keyword argument 'request_name'
+2020-01-01 14:58:52,344 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "c:\windows\system32\venv\lib\site-packages\sanic\app.py", line 1017, in handle_request
+    request, response, request_name=name
+TypeError: _run_response_middleware() got an unexpected keyword argument 'request_name'
+2020-01-01 15:01:02,645 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\windows\system32\venv\lib\site-packages\sanic\app.py", line 1167, in run
+    serve(**server_settings)
+  File "c:\windows\system32\venv\lib\site-packages\sanic\server.py", line 919, in serve
+    loop.run_forever()
+  File "C:\Users\hariom342\AppData\Local\Programs\Python\Python36\lib\asyncio\base_events.py", line 421, in run_forever
+    self._run_once()
+  File "C:\Users\hariom342\AppData\Local\Programs\Python\Python36\lib\asyncio\base_events.py", line 1395, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\hariom342\AppData\Local\Programs\Python\Python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\hariom342\AppData\Local\Programs\Python\Python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\windows\system32\venv\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\windows\system32\venv\lib\site-packages\engineio\client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt

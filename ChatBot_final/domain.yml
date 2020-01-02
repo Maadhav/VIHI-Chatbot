@@ -46,7 +46,16 @@ intents:
 templates:
   utter_greet:
   - text: "Hi there, I am VIHI, virtual assistant for queries on Public Grievance\
-      \ Redressal Portal\nSo, how can i help you today?"
+      \ Redressal Portal.\nSo, how can i help you today?\nMost Asked Queries"
+    buttons:
+    - title: How to Register a Grievance?
+      payload: /register
+    - title: How to remind about my Grievance?
+      payload: /remind
+    - title: सुरक्षा कोड उत्पन्न नहीं होता है?
+      payload: /code_hi
+    - title: प्रोफ़ाइल को कैसे संपादित करें?
+      payload: /edit_hi
   utter_upload:
   - text: "Steps to be followed :-\n\n1. Visit https://pgportal.gov.in/Home\n2. Firstly,\
       \ Check the document size. \n3. If your size is larger than require size then\
